@@ -42,7 +42,9 @@ Queries are processed by EuropePMC. In their simplest form, they can be free tex
 --query 'brain tumour rnaseq'
 ```
 
-But they can also be much more detailed, using the EuropePMC webservice's query language (see Appendix 1 of [the EuropePMC reference PDF](http://europepmc.org/docs/EBI_Europe_PMC_Web_Service_Reference.pdf)).
+But they can also be much more detailed, using the EuropePMC webservice's query language (see Appendix 1 of [the EuropePMC reference PDF](http://europepmc.org/docs/EBI_Europe_PMC_Web_Service_Reference.pdf)). 
+
+One easy way to get a query structure is to run an [advanced search] (http://europepmc.org/advancesearch) on EuropePMC and copy the query that appears in the search box, ensuring that the parentheses and other syntax matches the getpapers documentation.
 
 For example we can restrict our search to only papers that mention 'transcriptome assembly' in the methods:
 
